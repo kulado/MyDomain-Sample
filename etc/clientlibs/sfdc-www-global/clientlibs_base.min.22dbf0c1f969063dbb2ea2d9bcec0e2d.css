@@ -1,0 +1,28 @@
+.assetCardsComponent .assets-cards{display:inline-block;width:100%;padding:20px}
+.assetCardsComponent .assets-heading{padding:10px}
+.assetCardsComponent .asset-card{display:inline-block;vertical-align:top;padding:0 10px 35px 10px}
+@media(max-width:767px){.assetCardsComponent .asset-card{width:100%}
+}
+@media(min-width:768px) and (max-width:1023px){.assetCardsComponent .asset-card{width:49%}
+}
+@media(min-width:1024px){.assetCardsComponent .asset-card{float:left;width:33%}
+}
+.assetCardsComponent .asset-thumbnail{text-align:center;max-height:200px;width:100%;overflow:hidden}
+@media(max-width:767px){.assetCardsComponent .asset-thumbnail{max-height:400px}
+}
+.assetCardsComponent .asset-thumbnail>img{width:100%;border-top:1px solid #d8d8d8}
+.assetCardsComponent .asset-card-inner{padding:10px}
+.assetCardsComponent .asset-card-inner .asset-title{text-align:left;max-width:100%;width:100%;word-break:break-word;word-wrap:break-word;color:back;padding-top:10px;font-weight:bold}
+.assetCardsComponent .asset-card-inner .asset-description-box{margin-top:15px;text-align:left}
+.assetCardsComponent .asset-card-inner .asset-download-link{margin-top:15px;text-transform:uppercase;text-align:left}
+.assetCardsComponent .asset-card-inner .asset-download-link a{color:#07b}
+.assetCardsComponent .asset-card-inner .asset-download-link a:hiver{color:#4e758b;text-decoration:none;cursor:pointer}
+.assetCardsComponent .assets-cards-errorsLevel{clear:both}
+.assetCardsComponent .assets-cards-areaForNewCards .assets-cards-areaForNewCards_loadMoreButton{position:relative;width:100%;clear:both}
+.assetCardsComponent .assets-cards-areaForNewCards .assets-cards-areaForNewCards_loadMoreButton .show-more{width:100%;margin:20px 0 20px 0;text-align:center;background:#eaeaea;clear:both;cursor:pointer}
+.assetCardsComponent .assets-cards-areaForNewCards .assets-cards-areaForNewCards_loadMoreButton .show-more>a{display:block;padding:10px;width:100%}
+.assetCardsComponent .assets-cards-areaForNewCards .assets-cards-areaForNewCards_loadMoreButton .pafc_loadingOverlayContainer .loadingOverlay{position:absolute;top:0;height:100%;background:#d4d4d4;width:100%;opacity:.6;text-align:right;display:none;font-size:10px;padding:5px;z-index:2}
+.assetCardsComponent .transparentColorText{color:transparent}
+.assetCardsComponent .asset-card-grid-cleaner-level{width:100%;clear:both}
+@media(min-width:768px) and (max-width:1023px){.assetCardsComponent .asset-card-grid-cleaner-level{display:none}
+}
